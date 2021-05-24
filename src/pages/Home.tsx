@@ -16,8 +16,8 @@ export function Home() {
 
   function handleAddTask(newTaskTitle: string) {
     if (newTaskTitle == '') {
-      Alert.alert('O campo está vazio, por favor digite alguma coisa!')
-      return
+      Alert.alert('Desculpe, por favor digite alguma coisa!')
+      return 
     } 
     const data = {
       id: new Date().getTime(),

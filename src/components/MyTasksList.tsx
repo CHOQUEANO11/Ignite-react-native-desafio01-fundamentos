@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
   header: {
     color: '#3D3D4D',
     fontSize: 24,
-    fontFamily: 'Poppins-SemiBold'
+    fontFamily: 'Poppins-SemiBold',
+    textAlign: 'center',
   },
   taskButton: {
     flex: 1,
